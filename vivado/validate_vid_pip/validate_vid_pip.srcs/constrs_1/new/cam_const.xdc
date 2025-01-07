@@ -1,0 +1,109 @@
+set_operating_conditions -grade extended
+set_operating_conditions -board_layers 4to7
+set_operating_conditions -board small
+
+set_property IOSTANDARD LVCMOS33 [get_ports aud_mclk]
+set_property PACKAGE_PIN T15 [get_ports aud_mclk]
+
+set_property PACKAGE_PIN U19 [get_ports {pl_led_tri_o[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pl_led_tri_o[2]}]
+set_property PACKAGE_PIN V15 [get_ports {pl_led_tri_o[1]}]
+set_property PACKAGE_PIN Y13 [get_ports {pl_led_tri_o[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pl_led_tri_o[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pl_led_tri_o[0]}]
+
+set_property PACKAGE_PIN U7 [get_ports {tmds_tmds_data_p[0]}]
+set_property PACKAGE_PIN U9 [get_ports {tmds_tmds_data_p[1]}]
+set_property PACKAGE_PIN T9 [get_ports {tmds_tmds_data_p[2]}]
+set_property PACKAGE_PIN Y7 [get_ports tmds_tmds_clk_p]
+
+set_property PACKAGE_PIN P16 [get_ports {aud_bclk[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {aud_bclk[0]}]
+set_property PACKAGE_PIN T16 [get_ports aud_dacdat]
+set_property PACKAGE_PIN R14 [get_ports aud_adcdat]
+set_property IOSTANDARD LVCMOS33 [get_ports aud_adcdat]
+set_property IOSTANDARD LVCMOS33 [get_ports aud_adclrc]
+set_property IOSTANDARD LVCMOS33 [get_ports aud_dacdat]
+set_property PACKAGE_PIN R16 [get_ports aud_daclrc]
+set_property PACKAGE_PIN U15 [get_ports aud_adclrc]
+set_property IOSTANDARD LVCMOS33 [get_ports aud_daclrc]
+
+set_property PACKAGE_PIN R19 [get_ports IIC_CAM_sda_io]
+set_property PACKAGE_PIN R18 [get_ports IIC_CAM_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_CAM_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_CAM_sda_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_BUS_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_BUS_sda_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_HDMI_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_HDMI_sda_io]
+set_property PACKAGE_PIN T11 [get_ports IIC_BUS_sda_io]
+set_property PACKAGE_PIN T17 [get_ports IIC_BUS_scl_io]
+
+set_property PACKAGE_PIN E19 [get_ports {gpio0_tri_io[0]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {gpio0_tri_io[0]}]
+set_property PACKAGE_PIN P18 [get_ports {gpio0_tri_io[1]}]
+set_property PACKAGE_PIN W15 [get_ports {gpio0_tri_io[2]}]
+set_property PACKAGE_PIN V12 [get_ports {gpio0_tri_io[3]}]
+set_property PACKAGE_PIN V16 [get_ports {gpio0_tri_io[4]}]
+set_property PACKAGE_PIN K16 [get_ports {gpio0_tri_io[5]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {gpio0_tri_io[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[2]}]
+set_property PACKAGE_PIN R17 [get_ports {gpio0_tri_io[6]}]
+set_property PACKAGE_PIN W6 [get_ports {gpio0_tri_io[7]}]
+set_property PACKAGE_PIN V6 [get_ports {gpio0_tri_io[8]}]
+set_property PACKAGE_PIN T12 [get_ports {gpio0_tri_io[9]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[9]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[8]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio0_tri_io[6]}]
+
+set_clock_groups -asynchronous -group [get_clocks clk_fpga_0] -group [get_clocks -of_objects [get_pins design_1_i/hdmi_out/clk_wiz_dyn/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT1]]
+set_clock_groups -asynchronous -group [get_clocks clk_fpga_0] -group [get_clocks -of_objects [get_pins design_1_i/hdmi_out/clk_wiz_dyn/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0]]
+set_clock_groups -asynchronous -group [get_clocks clk_fpga_0] -group [get_clocks clk_fpga_1]
+set_clock_groups -asynchronous -group [get_clocks clk_fpga_0] -group [get_clocks -of_objects [get_pins system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0]]
+
+set_false_path -from [get_pins system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/img_U/internal_full_n_reg/C] -to [get_pins system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN]
+set_false_path -from [get_pins {system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/or_ln759_1_reg_1441_reg[0]/C}] -to [get_pins system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN]
+set_false_path -from [get_pins {system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/icmp_ln733_reg_1425_reg[0]/C}] -to [get_pins system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN]
+set_false_path -from [get_pins system_i/hdmi_out/DVI_Transmitter_0/inst/reset_syn/reset_2_reg/C]
+
+set_operating_conditions -grade industrial
+set_operating_conditions -process maximum
+set_operating_conditions -heatsink low
+
+set_property SLEW SLOW [get_ports IIC_BUS_scl_io]
+set_property SLEW SLOW [get_ports IIC_BUS_sda_io]
+set_property SLEW SLOW [get_ports {pl_led_tri_o[2]}]
+set_property SLEW SLOW [get_ports {pl_led_tri_o[1]}]
+set_property SLEW SLOW [get_ports {pl_led_tri_o[0]}]
+set_property PULLUP true [get_ports IIC_BUS_scl_io]
+set_property PULLUP true [get_ports IIC_BUS_sda_io]
+set_property DRIVE 16 [get_ports IIC_BUS_scl_io]
+set_property DRIVE 16 [get_ports IIC_BUS_sda_io]
+set_property DRIVE 12 [get_ports {pl_led_tri_o[2]}]
+set_property DRIVE 12 [get_ports {pl_led_tri_o[1]}]
+set_property DRIVE 12 [get_ports {pl_led_tri_o[0]}]
+
+set_property PULLUP true [get_ports IIC_CAM_scl_io]
+set_property PULLUP true [get_ports IIC_CAM_sda_io]
+
+set_property PULLUP true [get_ports aud_adcdat]
+
+set_property DRIVE 12 [get_ports {gpio0_tri_io[4]}]
+
+
+set_property PULLUP true [get_ports {gpio0_tri_io[2]}]
+set_property PULLUP true [get_ports {gpio0_tri_io[3]}]
+set_property PULLUP true [get_ports {gpio0_tri_io[4]}]
+set_property PULLUP true [get_ports {gpio0_tri_io[6]}]
+
+set_property PACKAGE_PIN V17 [get_ports IIC_HDMI_sda_io]
+
+set_property OFFCHIP_TERM NONE [get_ports IIC_BUS_scl_io]
+set_property OFFCHIP_TERM NONE [get_ports IIC_BUS_sda_io]
+set_property PACKAGE_PIN T19 [get_ports IIC_HDMI_scl_io]
+set_property PULLUP true [get_ports IIC_HDMI_scl_io]
+set_property PULLUP true [get_ports IIC_HDMI_sda_io]

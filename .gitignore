@@ -1,0 +1,51 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.tmp
+*.xpr
+*.wcfg
+.cache/
+.data/
+.history/
+.runs/
+.hw/
+.sdk/
+
+# Linux Kernel build files
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.symvers
+*.cmd
+*.d
+*.DTB
+*.dtb
+!system.dtb
+*.img
+*.bin
+*.elf
+*.gdb
+*.map
+*.spec
+.tags
+cscope.*
+tags
+modules.order
+Module.symvers
+certs/
+scripts/
+tmp/
+
+# PetaLinux generated files
+*.hdf
+*.xsa
+*.project
+*.cproject
+
+# Yocto build files
+build/
+tmp/
+downloads/
+sstate-cache/

@@ -1,0 +1,667 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jan  6 15:38:20 2025
+# Process ID: 57404
+# Current directory: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.runs/impl_1\vivado.jou
+# Running On: Pie6, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 33970 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 449.941 ; gain = 163.855
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.cache/ip 
+Command: link_design -top design_1_wrapper -part xc7z020clg400-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.461 . Memory (MB): peak = 1042.715 ; gain = 0.000
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_audio_formatter_0/design_1_audio_formatter_0.xdc] for cell 'design_1_i/audio/audio_formatter/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_audio_formatter_0/design_1_audio_formatter_0.xdc] for cell 'design_1_i/audio/audio_formatter/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_i2s_receiver_0/design_1_i2s_receiver_0_board.xdc] for cell 'design_1_i/audio/i2s_receiver/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_i2s_receiver_0/design_1_i2s_receiver_0_board.xdc] for cell 'design_1_i/audio/i2s_receiver/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_i2s_transmitter_0/design_1_i2s_transmitter_0_board.xdc] for cell 'design_1_i/audio/i2s_transmitter/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_i2s_transmitter_0/design_1_i2s_transmitter_0_board.xdc] for cell 'design_1_i/audio/i2s_transmitter/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0_board.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0_board.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0_board.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0_board.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+get_clocks: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1840.031 ; gain = 600.188
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0_board.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0_board.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0_board.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0_board.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_IIC_HDMI_0/design_1_IIC_HDMI_0_board.xdc] for cell 'design_1_i/IIC_HDMI/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_IIC_HDMI_0/design_1_IIC_HDMI_0_board.xdc] for cell 'design_1_i/IIC_HDMI/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.196860 which will be rounded to 0.197 to ensure it is an integer multiple of 1 picosecond [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:24]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0_board.xdc] for cell 'design_1_i/rst_gpio/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0_board.xdc] for cell 'design_1_i/rst_gpio/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0.xdc] for cell 'design_1_i/rst_gpio/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0.xdc] for cell 'design_1_i/rst_gpio/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc]
+WARNING: [Vivado 12-508] No pins matched 'system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:66]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:66]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_pins system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0]]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:66]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:66]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:66]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/img_U/internal_full_n_reg/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:68]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:68]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/img_U/internal_full_n_reg/C]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:68]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/or_ln759_1_reg_1441_reg[0]/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:69]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:69]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins {system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/or_ln759_1_reg_1441_reg[0]/C}]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:69]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/icmp_ln733_reg_1425_reg[0]/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:70]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:70]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins {system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/icmp_ln733_reg_1425_reg[0]/C}]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:70]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/DVI_Transmitter_0/inst/reset_syn/reset_2_reg/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:71]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins system_i/hdmi_out/DVI_Transmitter_0/inst/reset_syn/reset_2_reg/C]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc:71]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.srcs/constrs_1/new/validationConstraint.xdc]
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s01_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_41/design_1_s00_regslice_41_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_41/design_1_s00_regslice_41_clocks.xdc:10]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_41/design_1_s00_regslice_41_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_41/design_1_s00_data_fifo_41_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_41/design_1_s00_data_fifo_41_clocks.xdc:2]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_41/design_1_s00_data_fifo_41_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_hdmi_vtc_0/design_1_hdmi_vtc_0_clocks.xdc] for cell 'design_1_i/hdmi_out/hdmi_vtc/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_hdmi_vtc_0/design_1_hdmi_vtc_0_clocks.xdc] for cell 'design_1_i/hdmi_out/hdmi_vtc/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_1_0/design_1_v_axi4s_vid_out_1_0_clocks.xdc] for cell 'design_1_i/hdmi_out/v_axi4s_vid_out_1/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_1_0/design_1_v_axi4s_vid_out_1_0_clocks.xdc] for cell 'design_1_i/hdmi_out/v_axi4s_vid_out_1/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_rd_0_0/design_1_v_frmbuf_rd_0_0.xdc] for cell 'design_1_i/hdmi_out/v_frmbuf_rd_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_rd_0_0/design_1_v_frmbuf_rd_0_0.xdc] for cell 'design_1_i/hdmi_out/v_frmbuf_rd_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_42/design_1_s00_regslice_42_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_42/design_1_s00_regslice_42_clocks.xdc:10]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_42/design_1_s00_regslice_42_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_42/design_1_s00_data_fifo_42_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_42/design_1_s00_data_fifo_42_clocks.xdc:2]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_42/design_1_s00_data_fifo_42_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_wr_0_0/design_1_v_frmbuf_wr_0_0.xdc] for cell 'design_1_i/camera_in/v_frmbuf_wr_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_wr_0_0/design_1_v_frmbuf_wr_0_0.xdc] for cell 'design_1_i/camera_in/v_frmbuf_wr_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_0/bd_0/ip/ip_0/bd_d92b_csc_0.xdc] for cell 'design_1_i/camera_in/v_proc_ss_0/inst/csc/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_0/bd_0/ip/ip_0/bd_d92b_csc_0.xdc] for cell 'design_1_i/camera_in/v_proc_ss_0/inst/csc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/design_1_v_tpg_0_0.xdc] for cell 'design_1_i/camera_in/v_tpg_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/design_1_v_tpg_0_0.xdc] for cell 'design_1_i/camera_in/v_tpg_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m06_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m06_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m11_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m11_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m14_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m14_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m15_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m15_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1844.887 ; gain = 0.000
+0 Infos, 35 Warnings, 7 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1844.887 ; gain = 1311.758
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.876 . Memory (MB): peak = 1844.887 ; gain = 0.000
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: 134e18f92
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1844.887 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+Phase 1 Retarget | Checksum: 1cc00a375
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2239.418 ; gain = 25.648
+
+Phase 2 Constant propagation
+Phase 2 Constant propagation | Checksum: d81afb1a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2239.418 ; gain = 25.648
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 17683346e
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2239.418 ; gain = 25.648
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 12bafade7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2239.418 ; gain = 25.648
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: ce325069
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2239.418 ; gain = 25.648
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 10ac2d017
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2239.418 ; gain = 25.648
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             228  |             435  |                                            233  |
+|  Constant propagation         |               7  |             395  |                                            610  |
+|  Sweep                        |               0  |            1284  |                                            592  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            217  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 2239.418 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 47701dc6
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2239.418 ; gain = 25.648
+
+Starting Power Optimization Task
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+Number of BRAM Ports augmented: 19 newly gated: 4 Total Ports: 86
+Ending PowerOpt Patch Enables Task | Checksum: 1898d6fb5
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1898d6fb5
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2756.621 ; gain = 517.203
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+Ending Logic Optimization Task | Checksum: 1a4fb9faa
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 1a4fb9faa
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1a4fb9faa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2756.621 ; gain = 0.000
+0 Infos, 35 Warnings, 7 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 2756.621 ; gain = 911.734
+Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+report_drc completed successfully
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.099 . Memory (MB): peak = 2756.621 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command place_design
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: d1a4bdbb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 9811cf47
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 199c3bf08
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 199c3bf08
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 199c3bf08
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 13fc4164a
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1caa079b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1caa079b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 23d6b43eb
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:22 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            528  |                   528  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            528  |                   528  |           0  |           9  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 264d4a888
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:25 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 20883e069
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 20883e069
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:27 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 20eaf55d7
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:28 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 29398b654
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 2b24fa684
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 287b5761a
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 1e21c4c87
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:35 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 15a9ef346
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:44 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 21b104431
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 23df3484a
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:46 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 144ffb7ce
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 144ffb7ce
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1963cfb0c
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+Phase 1 Physical Synthesis Initialization | Checksum: 1d983b2b3
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 1d983b2b3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1963cfb0c
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:00 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 279d4fd96
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:08 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:08 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 279d4fd96
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:08 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 279d4fd96
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:08 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+Phase 4.3.1 Print Estimated Congestion | Checksum: 279d4fd96
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:09 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 279d4fd96
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:09 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2756.621 ; gain = 0.000
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:09 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 29bf6c644
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:09 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Ending Placer Task | Checksum: 1dcab59ac
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:09 . Memory (MB): peak = 2756.621 ; gain = 0.000
+0 Infos, 35 Warnings, 7 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:36 ; elapsed = 00:01:10 . Memory (MB): peak = 2756.621 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 2756.621 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2756.621 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2756.621 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2815.492 ; gain = 58.871
+0 Infos, 35 Warnings, 7 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 2866.355 ; gain = 50.648
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2866.355 ; gain = 50.863
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+
+
+Starting Routing Task
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: ee139099 ConstDB: 0 ShapeSum: ee97c913 RouteDB: 0
+Post Restoration Checksum: NetGraph: 29149a47 | NumContArr: 6b751499 | Constraints: 190a55ad | Timing: 0
+Phase 1 Build RT Design | Checksum: ad94048d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 2960.281 ; gain = 67.105
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: ad94048d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2960.281 ; gain = 67.105
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: ad94048d
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2960.281 ; gain = 67.105
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 14841d2a6
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:27 . Memory (MB): peak = 2960.281 ; gain = 67.105
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 13eda857c
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:33 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 2.4 Update Timing for Bus Skew | Checksum: 1bdf60e67
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:33 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 43217
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 43217
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1817d767f
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:34 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1817d767f
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:34 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 3 Initial Routing | Checksum: 183899282
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:37 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3877
+ Number of Nodes with overlaps = 529
+ Number of Nodes with overlaps = 203
+ Number of Nodes with overlaps = 67
+ Number of Nodes with overlaps = 31
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 1959ae581
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:54 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 4 Rip-up And Reroute | Checksum: 1959ae581
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:54 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 15f528fb2
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:56 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 5.1 Delay CleanUp | Checksum: 17dd67c8e
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:56 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 17dd67c8e
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:56 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 5 Delay and Skew Optimization | Checksum: 17dd67c8e
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:00:56 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1ce5e7912
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:58 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 6.1 Hold Fix Iter | Checksum: 18122cf43
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:58 . Memory (MB): peak = 3025.969 ; gain = 132.793
+Phase 6 Post Hold Fix | Checksum: 18122cf43
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:58 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 8.38314 %
+  Global Horizontal Routing Utilization  = 10.7955 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 222af9e6e
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:59 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 222af9e6e
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:59 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1c37294ed
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:01 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 1c37294ed
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:01:03 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Phase 11 Post-Route Event Processing
+Phase 11 Post-Route Event Processing | Checksum: 1cc416ead
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:03 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Time (s): cpu = 00:01:26 ; elapsed = 00:01:03 . Memory (MB): peak = 3025.969 ; gain = 132.793
+
+Routing Is Done.
+0 Infos, 35 Warnings, 7 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:05 . Memory (MB): peak = 3025.969 ; gain = 159.613
+Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+report_drc completed successfully
+Command: report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 3199.301 ; gain = 173.332
+Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+0 Infos, 36 Warnings, 7 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 3240.473 ; gain = 41.172
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 3294.523 ; gain = 26.941
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 3294.523 ; gain = 26.941

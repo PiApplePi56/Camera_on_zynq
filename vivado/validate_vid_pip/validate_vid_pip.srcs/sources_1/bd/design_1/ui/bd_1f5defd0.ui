@@ -1,0 +1,214 @@
+{
+   "ActiveEmotionalView":"Color Coded",
+   "Addressing View_Layers":"/processing_system7_0_FCLK_RESET0_N:false|/camera_in/rst_ps7_0_153M_peripheral_aresetn:false|/i2c2_iic2intc_irpt:false|/hdmi_out/clk_wiz_0_hdmi_pclk_5x:false|/hdmi_out/v_frmbuf_rd_0_interrupt:false|/hdmi_out/hdmi_vtc_irq:false|/clk_wiz_0_mclk:false|/audio/audio_formatter_irq_mm2s:false|/audio/i2s_receiver_irq:false|/camera_in/v_demosaic_0_interrupt:false|/processing_system7_0_FCLK_CLK1:false|/rst_ps7_0_100M_peripheral_aresetn:false|/camera_in/v_frmbuf_wr_0_interrupt:false|/camera_in/v_gamma_lut_0_interrupt:false|/hdmi_out/rst_hdmi_dynclk_100M_peripheral_aresetn:false|/hdmi_out/hdmi_dynclk_PXL_CLK_O:false|/audio/i2s_transmitter_irq:false|/processing_system7_0_FCLK_CLK0:false|/processing_system7_0_FCLK_CLK2:false|/audio/audio_formatter_irq_s2mm:false|/audio/rst_clk_wiz_0_16M_peripheral_reset:false|",
+   "Addressing View_ScaleFactor":"0.606463",
+   "Addressing View_TopLeft":"-139,-53",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layers":"/processing_system7_0_FCLK_RESET0_N:true|/camera_in/rst_ps7_0_153M_peripheral_aresetn:true|/i2c2_iic2intc_irpt:true|/hdmi_out/clk_wiz_0_hdmi_pclk_5x:true|/hdmi_out/v_frmbuf_rd_0_interrupt:true|/hdmi_out/hdmi_vtc_irq:true|/clk_wiz_0_mclk:true|/audio/audio_formatter_irq_mm2s:true|/audio/i2s_receiver_irq:true|/camera_in/v_demosaic_0_interrupt:true|/processing_system7_0_FCLK_CLK1:true|/rst_ps7_0_100M_peripheral_aresetn:true|/camera_in/v_frmbuf_wr_0_interrupt:true|/camera_in/v_gamma_lut_0_interrupt:true|/hdmi_out/rst_hdmi_dynclk_100M_peripheral_aresetn:true|/hdmi_out/hdmi_dynclk_PXL_CLK_O:true|/audio/i2s_transmitter_irq:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_CLK2:true|/audio/audio_formatter_irq_s2mm:true|/audio/rst_clk_wiz_0_16M_peripheral_reset:true|",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 4340 -y 570 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 4340 -y 590 -defaultsOSRD
+preplace port gpio0 -pg 1 -lvl 5 -x 4340 -y 550 -defaultsOSRD
+preplace port IIC_CAM -pg 1 -lvl 5 -x 4340 -y 610 -defaultsOSRD
+preplace port IIC_BUS -pg 1 -lvl 5 -x 4340 -y 630 -defaultsOSRD
+preplace port IIC_HDMI -pg 1 -lvl 5 -x 4340 -y 340 -defaultsOSRD
+preplace port pl_led -pg 1 -lvl 5 -x 4340 -y 80 -defaultsOSRD
+preplace port tmds -pg 1 -lvl 5 -x 4340 -y 490 -defaultsOSRD
+preplace port port-id_aud_adcdat -pg 1 -lvl 0 -x 0 -y 1590 -defaultsOSRD
+preplace port port-id_aud_adclrc -pg 1 -lvl 5 -x 4340 -y 1540 -defaultsOSRD
+preplace port port-id_aud_dacdat -pg 1 -lvl 5 -x 4340 -y 1580 -defaultsOSRD
+preplace port port-id_aud_daclrc -pg 1 -lvl 5 -x 4340 -y 1600 -defaultsOSRD
+preplace port port-id_aud_mclk -pg 1 -lvl 5 -x 4340 -y 900 -defaultsOSRD
+preplace portBus aud_bclk -pg 1 -lvl 5 -x 4340 -y 1560 -defaultsOSRD
+preplace inst audio -pg 1 -lvl 3 -x 1230 -y 2600 -defaultsOSRD
+preplace inst hdmi_out -pg 1 -lvl 3 -x 1230 -y 520 -defaultsOSRD
+preplace inst camera_in -pg 1 -lvl 3 -x 1230 -y 914 -defaultsOSRD
+preplace inst IIC_HDMI -pg 1 -lvl 4 -x 4046 -y 360 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 4046 -y 80 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 4046 -y 910 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 4046 -y 650 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 570 -y 580 -defaultsOSRD
+preplace inst rst_gpio -pg 1 -lvl 3 -x 1230 -y 710 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 1120 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 1230 -y 2240 -defaultsOSRD
+preplace inst camera_in|axi_interconnect_0 -pg 1 -lvl 4 -x 2180 -y 1284 -defaultsOSRD
+preplace inst camera_in|rst_ps7_0_153M -pg 1 -lvl 3 -x 1810 -y 1384 -defaultsOSRD
+preplace inst camera_in|v_frmbuf_wr_0 -pg 1 -lvl 3 -x 1810 -y 1064 -defaultsOSRD
+preplace inst camera_in|v_proc_ss_0 -pg 1 -lvl 2 -x 1480 -y 1244 -defaultsOSRD
+preplace inst camera_in|xlslice_6 -pg 1 -lvl 1 -x 1220 -y 1304 -defaultsOSRD
+preplace inst camera_in|xlslice_1 -pg 1 -lvl 3 -x 1810 -y 934 -defaultsOSRD
+preplace inst camera_in|v_tpg_0 -pg 1 -lvl 4 -x 2180 -y 924 -defaultsOSRD
+preplace inst camera_in|xlslice_0 -pg 1 -lvl 2 -x 1480 -y 1094 -defaultsOSRD
+preplace netloc audio_formatter_irq_mm2s 1 2 2 940 2050 2530
+preplace netloc audio_formatter_irq_s2mm 1 2 2 960 2060 2550
+preplace netloc camera_in_interrupt 1 2 2 950 390 2540
+preplace netloc camera_in_interrupt3 1 2 2 920 1510 2520
+preplace netloc camera_in_peripheral_aresetn 1 1 3 390 110 NJ 110 2570
+preplace netloc clk_wiz_0_locked 1 2 3 880 270 NJ 270 4310
+preplace netloc clk_wiz_0_mclk 1 2 3 900 804 2590J 1000 4320
+preplace netloc hdmi_out_hdmi_pclk 1 1 3 400 120 NJ 120 2660
+preplace netloc hdmi_out_interrupt 1 2 2 930 370 2520
+preplace netloc hdmi_out_irq 1 2 2 910 360 2550
+preplace netloc hdmi_out_peripheral_aresetn 1 1 3 410 130 NJ 130 2560
+preplace netloc i2c2_iic2intc_irpt 1 2 3 890 280 NJ 280 4290
+preplace netloc i2s_receiver_irq 1 2 2 870 2730 2510
+preplace netloc i2s_receiver_lrclk_out 1 3 2 2630J 1540 NJ
+preplace netloc i2s_transmitter_irq 1 2 2 960 2420 2520
+preplace netloc i2s_transmitter_lrclk_out 1 3 2 2660J 1600 NJ
+preplace netloc i2s_transmitter_sclk_out 1 3 2 2640J 1560 NJ
+preplace netloc i2s_transmitter_sdata_0_out 1 3 2 2650J 1580 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 30 840 370 140 780 140 2630 820 4300
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 4 420 1000 860 794 3816 810 4280
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 5 30 1220 NJ 1220 730 380 2640J 440 4290
+preplace netloc rest_gpio_gpio_io_o 1 2 2 960 400 2530
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 380 150 750 350 2650
+preplace netloc sdata_0_in_0_1 1 0 3 NJ 1590 NJ 1590 720J
+preplace netloc xlconcat_0_dout 1 3 1 2620 750n
+preplace netloc DVI_Transmitter_0_TMDS 1 3 2 NJ 490 NJ
+preplace netloc audio_M00_AXI 1 3 1 2610 650n
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ 80
+preplace netloc camera_in_M00_AXI 1 3 1 2600 630n
+preplace netloc hdmi_out_M00_AXI 1 3 1 2640 470n
+preplace netloc i2c2_IIC 1 4 1 NJ 340
+preplace netloc processing_system7_0_DDR 1 4 1 NJ 570
+preplace netloc processing_system7_0_FIXED_IO 1 4 1 NJ 590
+preplace netloc processing_system7_0_GPIO_0 1 4 1 NJ 550
+preplace netloc processing_system7_0_IIC_0 1 4 1 NJ 610
+preplace netloc processing_system7_0_IIC_1 1 4 1 NJ 630
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 4 420 160 NJ 160 NJ 160 4300
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 770 430n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 800 450n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 760 470n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 2 720 60 NJ
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 850 550n
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 2 840J 630 2580
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 830 500n
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 820 480n
+preplace netloc ps7_0_axi_periph_M11_AXI 1 2 1 810 460n
+preplace netloc ps7_0_axi_periph_M12_AXI 1 2 2 790 340 NJ
+preplace netloc ps7_0_axi_periph_M13_AXI 1 2 1 N 690
+preplace netloc ps7_0_axi_periph_M14_AXI 1 2 1 720 710n
+preplace netloc ps7_0_axi_periph_M15_AXI 1 2 1 740 730n
+preplace netloc camera_in|ACLK_1 1 0 4 NJ 1234 1330 1334 1630 1154 2000
+preplace netloc camera_in|Din_1 1 0 3 1120 1094 1330 934 NJ
+preplace netloc camera_in|ext_reset_in_1 1 0 3 NJ 1364 NJ 1364 N
+preplace netloc camera_in|rst_ps7_0_153M_peripheral_aresetn 1 3 2 2010 1404 NJ
+preplace netloc camera_in|v_frmbuf_wr_0_interrupt 1 3 2 N 1074 2350J
+preplace netloc camera_in|v_tpg_0_interrupt 1 4 1 2360 944n
+preplace netloc camera_in|xlslice_0_Dout 1 2 1 NJ 1094
+preplace netloc camera_in|xlslice_1_Dout 1 3 1 NJ 934
+preplace netloc camera_in|xlslice_6_Dout 1 1 1 1340 1274n
+preplace netloc camera_in|Conn1 1 4 1 N 1284
+preplace netloc camera_in|Conn7 1 0 2 NJ 1214 N
+preplace netloc camera_in|s_axi_CTRL_1 1 0 3 NJ 854 NJ 854 1620
+preplace netloc camera_in|s_axi_CTRL_2 1 0 4 1120J 864 NJ 864 NJ 864 2000
+preplace netloc camera_in|v_frmbuf_wr_0_m_axi_mm_video 1 3 1 1990 1054n
+preplace netloc camera_in|v_proc_ss_0_m_axis 1 2 1 1620 1054n
+preplace netloc camera_in|v_tpg_0_m_axis_video 1 1 4 1340 874 NJ 874 1990J 1014 2350
+levelinfo -pg 1 0 200 570 1230 4046 4340
+levelinfo -hier camera_in * 1220 1480 1810 2180 *
+pagesize -pg 1 -db -bbox -sgen -130 0 4480 2740
+pagesize -hier camera_in -db -bbox -sgen 1090 834 2390 1484
+",
+   "Color Coded_ScaleFactor":"1.01532",
+   "Color Coded_TopLeft":"555,348",
+   "Default View_ScaleFactor":"0.292315",
+   "Default View_TopLeft":"14,-339",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeInterrupt":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Reduced Jogs_ScaleFactor":"0.234841",
+   "Reduced Jogs_TopLeft":"-1099,0",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 2140 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 2140 -y 100 -defaultsOSRD
+preplace port gpio0 -pg 1 -lvl 5 -x 2140 -y 60 -defaultsOSRD
+preplace port IIC_CAM -pg 1 -lvl 5 -x 2140 -y 120 -defaultsOSRD
+preplace port IIC_BUS -pg 1 -lvl 5 -x 2140 -y 140 -defaultsOSRD
+preplace port IIC_HDMI -pg 1 -lvl 5 -x 2140 -y 870 -defaultsOSRD
+preplace port pl_led -pg 1 -lvl 5 -x 2140 -y 700 -defaultsOSRD
+preplace port tmds -pg 1 -lvl 5 -x 2140 -y 810 -defaultsOSRD
+preplace port mipi_phy_if_0 -pg 1 -lvl 0 -x -120 -y 1140 -defaultsOSRD
+preplace port port-id_aud_adcdat -pg 1 -lvl 0 -x -120 -y 1660 -defaultsOSRD
+preplace port port-id_aud_adclrc -pg 1 -lvl 5 -x 2140 -y 1610 -defaultsOSRD
+preplace port port-id_aud_dacdat -pg 1 -lvl 5 -x 2140 -y 1650 -defaultsOSRD
+preplace port port-id_aud_daclrc -pg 1 -lvl 5 -x 2140 -y 1670 -defaultsOSRD
+preplace port port-id_aud_mclk -pg 1 -lvl 5 -x 2140 -y 1030 -defaultsOSRD
+preplace portBus aud_bclk -pg 1 -lvl 5 -x 2140 -y 1630 -defaultsOSRD
+preplace inst audio -pg 1 -lvl 3 -x 1490 -y 1670 -defaultsOSRD
+preplace inst hdmi_out -pg 1 -lvl 3 -x 1490 -y 850 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 200 -y 810 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 460 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 1490 -y 1340 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1984 -y 700 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 4 -x 1984 -y 1040 -defaultsOSRD
+preplace inst IIC_HDMI -pg 1 -lvl 4 -x 1984 -y 890 -defaultsOSRD
+preplace inst rest_gpio -pg 1 -lvl 3 -x 1490 -y 1050 -defaultsOSRD
+preplace inst camera_in -pg 1 -lvl 3 -x 1490 -y 520 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 710 -y 750 -defaultsOSRD
+preplace netloc audio_formatter_irq_mm2s 1 2 2 1310 1500 1700
+preplace netloc audio_formatter_irq_s2mm 1 2 2 1290 1180 1710
+preplace netloc camera_in_interrupt 1 2 2 1250 320 1710
+preplace netloc camera_in_peripheral_aresetn 1 1 3 550 1140 1210J 700 1710
+preplace netloc clk_wiz_0_locked 1 2 3 1260 1490 NJ 1490 2110
+preplace netloc clk_wiz_0_mclk 1 2 3 1230 1140 NJ 1140 2120
+preplace netloc hdmi_out_hdmi_pclk 1 0 4 -40 990 540 1160 NJ 1160 1700
+preplace netloc hdmi_out_interrupt 1 2 2 1270 970 1680
+preplace netloc hdmi_out_irq 1 2 2 1240 710 1690
+preplace netloc hdmi_out_peripheral_aresetn 1 1 3 560 1170 NJ 1170 1690
+preplace netloc i2c2_iic2intc_irpt 1 2 3 1260 720 1750J 780 2110
+preplace netloc i2s_receiver_irq 1 2 2 1290 1510 1670
+preplace netloc i2s_receiver_lrclk_out 1 3 2 NJ 1610 NJ
+preplace netloc i2s_transmitter_irq 1 2 2 1310 1190 1690
+preplace netloc i2s_transmitter_lrclk_out 1 3 2 NJ 1670 NJ
+preplace netloc i2s_transmitter_sclk_out 1 3 2 NJ 1630 NJ
+preplace netloc i2s_transmitter_sdata_0_out 1 3 2 NJ 1650 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -60 360 490 330 1180 330 1854
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 3 -30 980 520 370 1200
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 2 500 360 1210
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 -90 1000 430J 1180 1200
+preplace netloc rest_gpio_gpio_io_o 1 2 2 1310 360 1720
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 530 350 1170 350 1844
+preplace netloc sdata_0_in_0_1 1 0 3 NJ 1660 NJ 1660 NJ
+preplace netloc xlconcat_0_dout 1 0 4 -80 300 N 300 N 300 1730
+preplace netloc camera_in_interrupt1 1 2 2 1280 340 1690
+preplace netloc camera_in_interrupt2 1 2 2 1300 690 1680
+preplace netloc DVI_Transmitter_0_TMDS 1 3 2 1750J 810 NJ
+preplace netloc audio_M00_AXI 1 0 4 -50 1130 N 1130 N 1130 1680
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ 700
+preplace netloc camera_in_M00_AXI 1 0 4 -30 310 N 310 N 310 1680
+preplace netloc hdmi_out_M00_AXI 1 0 4 -70 1150 N 1150 N 1150 1710
+preplace netloc i2c2_IIC 1 4 1 NJ 870
+preplace netloc mipi_phy_if_0_1 1 0 3 -100J 340 NJ 340 1240J
+preplace netloc processing_system7_0_DDR 1 1 4 440 80 N 80 N 80 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 450 100 N 100 N 100 NJ
+preplace netloc processing_system7_0_GPIO_0 1 1 4 430 60 N 60 N 60 NJ
+preplace netloc processing_system7_0_IIC_0 1 1 4 460 120 N 120 N 120 NJ
+preplace netloc processing_system7_0_IIC_1 1 1 4 470 140 N 140 N 140 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 510 430n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 910 620n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 920 640n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 890 660n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 2 N 680 NJ
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 860 460n
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 1 880 480n
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 870 420n
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 930 500n
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 2 1190 730 1740J
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 930 800n
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 1230 810n
+preplace netloc ps7_0_axi_periph_M11_AXI 1 2 1 1220 790n
+preplace netloc ps7_0_axi_periph_M12_AXI 1 2 2 900 960 1864J
+preplace netloc ps7_0_axi_periph_M13_AXI 1 2 1 860 880n
+levelinfo -pg 1 -120 200 710 1490 1984 2140
+pagesize -pg 1 -db -bbox -sgen -260 0 3770 2740
+"
+}
+{
+   "da_axi4_cnt":"6",
+   "da_clkrst_cnt":"2"
+}

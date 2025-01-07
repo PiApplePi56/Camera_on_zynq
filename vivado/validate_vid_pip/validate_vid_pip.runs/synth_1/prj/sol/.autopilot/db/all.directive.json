@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "v_tpg",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "v_tpg"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/validate_vid_pip/validate_vid_pip.runs/synth_1/runhls.tcl",
+    "sourceLine": 37,
+    "success": true
+  }
+]

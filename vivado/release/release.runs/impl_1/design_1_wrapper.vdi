@@ -1,0 +1,867 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jan  6 16:48:04 2025
+# Process ID: 48872
+# Current directory: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/impl_1\vivado.jou
+# Running On: Pie6, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 33970 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 450.008 ; gain = 162.895
+Command: link_design -top design_1_wrapper -part xc7z020clg400-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.571 . Memory (MB): peak = 1086.645 ; gain = 0.000
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_audio_formatter_0/design_1_audio_formatter_0.xdc] for cell 'design_1_i/audio/audio_formatter/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_audio_formatter_0/design_1_audio_formatter_0.xdc] for cell 'design_1_i/audio/audio_formatter/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_i2s_receiver_0/design_1_i2s_receiver_0_board.xdc] for cell 'design_1_i/audio/i2s_receiver/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_i2s_receiver_0/design_1_i2s_receiver_0_board.xdc] for cell 'design_1_i/audio/i2s_receiver/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_i2s_transmitter_0/design_1_i2s_transmitter_0_board.xdc] for cell 'design_1_i/audio/i2s_transmitter/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_i2s_transmitter_0/design_1_i2s_transmitter_0_board.xdc] for cell 'design_1_i/audio/i2s_transmitter/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0_board.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0_board.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_mclk_0/design_1_rst_mclk_0.xdc] for cell 'design_1_i/audio/rst_mclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0_board.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0_board.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+get_clocks: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1911.797 ; gain = 614.867
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_dyn_0/design_1_clk_wiz_dyn_0.xdc] for cell 'design_1_i/hdmi_out/clk_wiz_dyn/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0_board.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0_board.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_hdmi_dynclk_0/design_1_rst_hdmi_dynclk_0.xdc] for cell 'design_1_i/hdmi_out/rst_hdmi_dynclk/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_1/bd_d10d_r_sync_0_board.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_1/bd_d10d_r_sync_0_board.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_1/bd_d10d_r_sync_0.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_1/bd_d10d_r_sync_0.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/r_sync/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_rx_0.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/rx/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_2/bd_d10d_rx_0.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/rx/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/design_1_mipi_csi2_rx_subsyst_0_0_board.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/design_1_mipi_csi2_rx_subsyst_0_0_board.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0_board.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0_board.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_153M_0/design_1_rst_ps7_0_153M_0.xdc] for cell 'design_1_i/camera_in/rst_ps7_0_153M/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_IIC_HDMI_0/design_1_IIC_HDMI_0_board.xdc] for cell 'design_1_i/IIC_HDMI/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_IIC_HDMI_0/design_1_IIC_HDMI_0_board.xdc] for cell 'design_1_i/IIC_HDMI/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.196860 which will be rounded to 0.197 to ensure it is an integer multiple of 1 picosecond [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:24]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0_board.xdc] for cell 'design_1_i/rst_gpio/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0_board.xdc] for cell 'design_1_i/rst_gpio/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0.xdc] for cell 'design_1_i/rst_gpio/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rest_gpio_0/design_1_rest_gpio_0.xdc] for cell 'design_1_i/rst_gpio/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'tmds_tmds_data_p[0]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmds_tmds_data_p[1]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmds_tmds_data_p[2]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmds_tmds_clk_p'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-508] No pins matched 'system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:97]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:97]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_pins system_i/clk_wiz_0/inst/CLK_CORE_DRP_I/clk_inst/mmcm_adv_inst/CLKOUT0]]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:97]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:97]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:97]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/img_U/internal_full_n_reg/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:99]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:99]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/img_U/internal_full_n_reg/C]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:99]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/or_ln759_1_reg_1441_reg[0]/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:100]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:100]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins {system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/or_ln759_1_reg_1441_reg[0]/C}]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:100]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/icmp_ln733_reg_1425_reg[0]/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:101]
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/bytePlanes_plane0_U/U_system_v_frmbuf_rd_0_0_fifo_w64_d480_B_ram/mem_reg/ENARDEN'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:101]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins {system_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_150/Bytes2MultiPixStream_U0/icmp_ln733_reg_1425_reg[0]/C}]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:101]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'system_i/hdmi_out/DVI_Transmitter_0/inst/reset_syn/reset_2_reg/C'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:102]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins system_i/hdmi_out/DVI_Transmitter_0/inst/reset_syn/reset_2_reg/C]'. [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc:102]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.srcs/constrs_1/new/cam_const.xdc]
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/audio/axi_interconnect_0/s01_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_47/design_1_s00_regslice_47_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_47/design_1_s00_regslice_47_clocks.xdc:10]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_47/design_1_s00_regslice_47_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_47/design_1_s00_data_fifo_47_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_47/design_1_s00_data_fifo_47_clocks.xdc:2]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_47/design_1_s00_data_fifo_47_clocks.xdc] for cell 'design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_hdmi_vtc_0/design_1_hdmi_vtc_0_clocks.xdc] for cell 'design_1_i/hdmi_out/hdmi_vtc/U0'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_hdmi_vtc_0/design_1_hdmi_vtc_0_clocks.xdc] for cell 'design_1_i/hdmi_out/hdmi_vtc/U0'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_1_0/design_1_v_axi4s_vid_out_1_0_clocks.xdc] for cell 'design_1_i/hdmi_out/v_axi4s_vid_out_1/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_1_0/design_1_v_axi4s_vid_out_1_0_clocks.xdc] for cell 'design_1_i/hdmi_out/v_axi4s_vid_out_1/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_rd_0_0/design_1_v_frmbuf_rd_0_0.xdc] for cell 'design_1_i/hdmi_out/v_frmbuf_rd_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_rd_0_0/design_1_v_frmbuf_rd_0_0.xdc] for cell 'design_1_i/hdmi_out/v_frmbuf_rd_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_48/design_1_s00_regslice_48_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_48/design_1_s00_regslice_48_clocks.xdc:10]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_regslice_48/design_1_s00_regslice_48_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_regslice/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_48/design_1_s00_data_fifo_48_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_48/design_1_s00_data_fifo_48_clocks.xdc:2]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_s00_data_fifo_48/design_1_s00_data_fifo_48_clocks.xdc] for cell 'design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_clocks.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+WARNING: [Vivado 12-508] No pins matched '*en_hs_datapath_reg/C'. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_clocks.xdc:74]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-11' -from list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_clocks.xdc:74]
+WARNING: [Vivado 12-508] No pins matched '*init_done_reg/C'. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_clocks.xdc:75]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-11' -from list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_clocks.xdc:75]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_phy_0_clocks.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst/phy/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/design_1_mipi_csi2_rx_subsyst_0_0_impl.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/design_1_mipi_csi2_rx_subsyst_0_0_impl.xdc] for cell 'design_1_i/camera_in/mipi_csi2_rx_subsyst_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/design_1_v_demosaic_0_0.xdc] for cell 'design_1_i/camera_in/v_demosaic_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/design_1_v_demosaic_0_0.xdc] for cell 'design_1_i/camera_in/v_demosaic_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_wr_0_0/design_1_v_frmbuf_wr_0_0.xdc] for cell 'design_1_i/camera_in/v_frmbuf_wr_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_frmbuf_wr_0_0/design_1_v_frmbuf_wr_0_0.xdc] for cell 'design_1_i/camera_in/v_frmbuf_wr_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_gamma_lut_0_0/design_1_v_gamma_lut_0_0.xdc] for cell 'design_1_i/camera_in/v_gamma_lut_0/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_gamma_lut_0_0/design_1_v_gamma_lut_0_0.xdc] for cell 'design_1_i/camera_in/v_gamma_lut_0/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_0/bd_0/ip/ip_0/bd_d92b_csc_0.xdc] for cell 'design_1_i/camera_in/v_proc_ss_0/inst/csc/inst'
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_0/bd_0/ip/ip_0/bd_d92b_csc_0.xdc] for cell 'design_1_i/camera_in/v_proc_ss_0/inst/csc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m05_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m05_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m06_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m06_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m07_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m07_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m11_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_3/design_1_auto_cc_3_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m11_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m15_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_clocks.xdc:7]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_clocks.xdc:10]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-15' -to list should not be empty. [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_clocks.xdc:13]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_clocks.xdc:17]
+Finished Parsing XDC File [c:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.gen/sources_1/bd/design_1/ip/design_1_auto_cc_4/design_1_auto_cc_4_clocks.xdc] for cell 'design_1_i/ps7_0_axi_periph/m15_couplers/auto_cc/inst'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-15' -from list should not be empty. [C:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl:30]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1929.148 ; gain = 0.000
+0 Infos, 47 Warnings, 11 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1929.148 ; gain = 1388.289
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.853 . Memory (MB): peak = 1929.148 ; gain = 0.000
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: 1be5346f5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1938.359 ; gain = 9.211
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+Phase 1 Retarget | Checksum: 2cd1f0641
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2349.582 ; gain = 36.309
+
+Phase 2 Constant propagation
+Phase 2 Constant propagation | Checksum: 1e39564d4
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2349.582 ; gain = 36.309
+
+Phase 3 Sweep
+WARNING: [Opt 31-163] Instance design_1_i/hdmi_out/DVI_Transmitter_0/inst/serializer_b/OSERDESE2_Slave with type OSERDESE2 and SERDES_MODE=SLAVE will be removed because its outputs are unobservable. If the associated master SERDES requires the slave and is not removed, an error will be issued when generating the bitstream. To avoid this message and the removal of the slave SERDES (assuming it is needed by the master), please add a DONT_TOUCH property to it before running opt_design.
+WARNING: [Opt 31-163] Instance design_1_i/hdmi_out/DVI_Transmitter_0/inst/serializer_clk/OSERDESE2_Slave with type OSERDESE2 and SERDES_MODE=SLAVE will be removed because its outputs are unobservable. If the associated master SERDES requires the slave and is not removed, an error will be issued when generating the bitstream. To avoid this message and the removal of the slave SERDES (assuming it is needed by the master), please add a DONT_TOUCH property to it before running opt_design.
+WARNING: [Opt 31-163] Instance design_1_i/hdmi_out/DVI_Transmitter_0/inst/serializer_g/OSERDESE2_Slave with type OSERDESE2 and SERDES_MODE=SLAVE will be removed because its outputs are unobservable. If the associated master SERDES requires the slave and is not removed, an error will be issued when generating the bitstream. To avoid this message and the removal of the slave SERDES (assuming it is needed by the master), please add a DONT_TOUCH property to it before running opt_design.
+WARNING: [Opt 31-163] Instance design_1_i/hdmi_out/DVI_Transmitter_0/inst/serializer_r/OSERDESE2_Slave with type OSERDESE2 and SERDES_MODE=SLAVE will be removed because its outputs are unobservable. If the associated master SERDES requires the slave and is not removed, an error will be issued when generating the bitstream. To avoid this message and the removal of the slave SERDES (assuming it is needed by the master), please add a DONT_TOUCH property to it before running opt_design.
+Phase 3 Sweep | Checksum: 24184c0ab
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2349.582 ; gain = 36.309
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 24184c0ab
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2349.582 ; gain = 36.309
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 226308056
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2349.582 ; gain = 36.309
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 25b31663f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2349.582 ; gain = 36.309
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             249  |            1520  |                                            402  |
+|  Constant propagation         |               8  |             474  |                                            806  |
+|  Sweep                        |               0  |            4999  |                                            942  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            386  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 2349.582 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1a56db090
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2349.582 ; gain = 36.309
+
+Starting Power Optimization Task
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+Number of BRAM Ports augmented: 67 newly gated: 4 Total Ports: 202
+Number of Flops added for Enable Generation: 4
+
+Ending PowerOpt Patch Enables Task | Checksum: 18058d0f9
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 18058d0f9
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 3005.906 ; gain = 656.324
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+Ending Logic Optimization Task | Checksum: 1b1e9649a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 1b1e9649a
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1b1e9649a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3005.906 ; gain = 0.000
+0 Infos, 51 Warnings, 11 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 3005.906 ; gain = 1076.758
+Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+report_drc completed successfully
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.126 . Memory (MB): peak = 3005.906 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command place_design
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: fcfc4c05
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1936a9767
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 11801c130
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 11801c130
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 11801c130
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1ea2142a8
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1cc40ac2b
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 19aae38d8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: e30257c2
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            3  |            807  |                   810  |           0  |           1  |  00:00:01  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            3  |            807  |                   810  |           0  |           9  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1d7baaa66
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:35 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 200803881
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:38 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 200803881
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:38 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1bfcbfeeb
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:40 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 2b9605f1e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 25e84028d
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1caf69c11
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 288ed242d
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:49 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 191b4b322
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:04 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 218c52684
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:05 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 20d02d611
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:05 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 194ce0c57
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:13 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 194ce0c57
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:13 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 19f69b49a
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+Phase 1 Physical Synthesis Initialization | Checksum: 19456cfc2
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 19456cfc2
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 19f69b49a
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:25 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1552af0a8
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:40 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:40 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1552af0a8
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:40 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1552af0a8
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:40 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1552af0a8
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:41 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 1552af0a8
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:41 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 3005.906 ; gain = 0.000
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:41 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 127b1730b
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:41 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Ending Placer Task | Checksum: 8c59ff18
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:41 . Memory (MB): peak = 3005.906 ; gain = 0.000
+0 Infos, 51 Warnings, 11 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:20 ; elapsed = 00:01:43 . Memory (MB): peak = 3005.906 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 3005.906 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.119 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 3005.906 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 3005.906 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 3027.145 ; gain = 21.238
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3027.422 ; gain = 0.277
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+Phase 1 Physical Synthesis Initialization | Checksum: 17308df98
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 3031.391 ; gain = 3.969
+
+Phase 2 DSP Register Optimization
+Phase 2 DSP Register Optimization | Checksum: 17308df98
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3031.391 ; gain = 3.969
+
+Phase 3 Critical Path Optimization
+Phase 3 Critical Path Optimization | Checksum: 17308df98
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3031.391 ; gain = 3.969
+
+Phase 4 Critical Path Optimization
+Phase 4 Critical Path Optimization | Checksum: 17308df98
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 3031.391 ; gain = 3.969
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3031.391 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.676  |          1.982  |            0  |              0  |                     4  |           0  |           2  |  00:00:00  |
+|  Total          |          0.676  |          1.982  |            0  |              0  |                     4  |           0  |           3  |  00:00:01  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 3031.391 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: bf310162
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 3031.391 ; gain = 3.969
+0 Infos, 51 Warnings, 11 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 3031.391 ; gain = 25.484
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:04 . Memory (MB): peak = 3031.391 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 3031.391 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+
+
+Starting Routing Task
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 47ee9128 ConstDB: 0 ShapeSum: 686e61dd RouteDB: 0
+Post Restoration Checksum: NetGraph: e79b329a | NumContArr: 3e06c37b | Constraints: 190a55ad | Timing: 0
+Phase 1 Build RT Design | Checksum: 13eac4bc2
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 3031.391 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 13eac4bc2
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 3031.391 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 13eac4bc2
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 3031.391 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 257f8d897
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:32 . Memory (MB): peak = 3036.812 ; gain = 5.422
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 253fbf08e
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:39 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Phase 2.4 Update Timing for Bus Skew | Checksum: 2571f9bfe
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:39 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 55331
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 55331
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1b712213a
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:40 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1b712213a
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:40 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Phase 3 Initial Routing | Checksum: 26a434e54
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:46 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 4893
+ Number of Nodes with overlaps = 575
+ Number of Nodes with overlaps = 151
+ Number of Nodes with overlaps = 53
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 172f116a3
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:06 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+Phase 4.2 Global Iteration 1 | Checksum: 13d360844
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:06 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Phase 4 Rip-up And Reroute | Checksum: 13d360844
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:06 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 13d360844
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:07 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 13d360844
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:07 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Phase 5 Delay and Skew Optimization | Checksum: 13d360844
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:07 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 18fe7276d
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Phase 6.1 Hold Fix Iter | Checksum: 1e695b751
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Phase 6 Post Hold Fix | Checksum: 1e695b751
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 10.7239 %
+  Global Horizontal Routing Utilization  = 13.652 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1dcf2aaf9
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1dcf2aaf9
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:10 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2af3c80be
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:12 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 2af3c80be
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:15 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Phase 11 Post-Route Event Processing
+Phase 11 Post-Route Event Processing | Checksum: fd6fba0c
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:16 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:16 . Memory (MB): peak = 3224.801 ; gain = 193.410
+
+Routing Is Done.
+0 Infos, 51 Warnings, 11 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:50 ; elapsed = 00:01:18 . Memory (MB): peak = 3224.801 ; gain = 193.410
+Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 3224.801 ; gain = 0.000
+Command: report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 3442.734 ; gain = 217.934
+Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+0 Infos, 52 Warnings, 11 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 3492.051 ; gain = 49.316
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3565.758 ; gain = 32.754
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 3565.758 ; gain = 32.754
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jan  6 16:53:59 2025
+# Process ID: 60820
+# Current directory: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/impl_1\vivado.jou
+# Running On: Pie6, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 33970 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Command: open_checkpoint design_1_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 303.953 ; gain = 8.176
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.978 . Memory (MB): peak = 1009.781 ; gain = 0.000
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1926.070 ; gain = 56.406
+Restored from archive | CPU: 9.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1926.070 ; gain = 56.406
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1926.070 ; gain = 0.000
+open_checkpoint: Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1926.070 ; gain = 1634.695
+Command: write_bitstream -force design_1_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg input design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg input design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mac_muladd_16s_10ns_24s_27_4_1_U140/bd_d92b_csc_0_mac_muladd_16s_10ns_24s_27_4_1_DSP48_0_U/p_reg_reg input design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mac_muladd_16s_10ns_24s_27_4_1_U140/bd_d92b_csc_0_mac_muladd_16s_10ns_24s_27_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mac_muladd_16s_10ns_24s_27_4_1_U141/bd_d92b_csc_0_mac_muladd_16s_10ns_24s_27_4_1_DSP48_0_U/p_reg_reg input design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mac_muladd_16s_10ns_24s_27_4_1_U141/bd_d92b_csc_0_mac_muladd_16s_10ns_24s_27_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mac_muladd_16s_10ns_24s_27_4_1_U142/bd_d92b_csc_0_mac_muladd_16s_10ns_24s_27_4_1_DSP48_0_U/p_reg_reg input design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mac_muladd_16s_10ns_24s_27_4_1_U142/bd_d92b_csc_0_mac_muladd_16s_10ns_24s_27_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/trunc_ln147_1_reg_832_reg input design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/trunc_ln147_1_reg_832_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/trunc_ln149_1_reg_848_reg input design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/trunc_ln149_1_reg_848_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/trunc_ln151_1_reg_864_reg input design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/trunc_ln151_1_reg_864_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln456_1_reg_4536_reg multiplier stage design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln456_1_reg_4536_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln456_2_reg_4541_reg multiplier stage design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln456_2_reg_4541_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln456_3_reg_4546_reg multiplier stage design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln456_3_reg_4546_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln_reg_4531_reg multiplier stage design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/lshr_ln_reg_4531_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mul_ln459_1_reg_4571_reg multiplier stage design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mul_ln459_1_reg_4571_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mul_ln459_2_reg_4576_reg multiplier stage design_1_i/camera_in/v_demosaic_0/inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_273_4_fu_202/mul_ln459_2_reg_4576_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_160/MultiPixStream2Bytes_U0/mul_13ns_15ns_27_1_1_U115/tmp_product multiplier stage design_1_i/camera_in/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_160/MultiPixStream2Bytes_U0/mul_13ns_15ns_27_1_1_U115/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_160/MultiPixStream2Bytes_U0/mul_13ns_15ns_27_1_1_U116/tmp_product multiplier stage design_1_i/camera_in/v_frmbuf_wr_0/inst/grp_FrmbufWrHlsDataFlow_fu_160/MultiPixStream2Bytes_U0/mul_13ns_15ns_27_1_1_U116/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln147_1_reg_781_reg multiplier stage design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln147_1_reg_781_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln147_2_reg_787_reg multiplier stage design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln147_2_reg_787_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln149_1_reg_798_reg multiplier stage design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln149_1_reg_798_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln149_2_reg_804_reg multiplier stage design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln149_2_reg_804_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln151_1_reg_815_reg multiplier stage design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln151_1_reg_815_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln151_2_reg_821_reg multiplier stage design_1_i/camera_in/v_proc_ss_0/inst/csc/inst/v_csc_core_U0/grp_v_csc_core_Pipeline_VITIS_LOOP_91_2_fu_214/mul_ln151_2_reg_821_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_162/Bytes2MultiPixStream_U0/mul_12ns_14ns_25_1_1_U46/tmp_product multiplier stage design_1_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_162/Bytes2MultiPixStream_U0/mul_12ns_14ns_25_1_1_U46/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_162/Bytes2MultiPixStream_U0/mul_12ns_14ns_25_1_1_U48/tmp_product multiplier stage design_1_i/hdmi_out/v_frmbuf_rd_0/inst/grp_FrmbufRdHlsDataFlow_fu_162/Bytes2MultiPixStream_U0/mul_12ns_14ns_25_1_1_U48/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A5)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A5)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__1 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__1/I0) is not included in the LUT equation: 'O6=(A5*A4*A6*A3)+(A5*A4*A6*(~A3)*A2)+(A5*A4*(~A6)*A2)+(A5*(~A4)*A3)+(A5*(~A4)*(~A3)*A2)+((~A5)*A3)+((~A5)*(~A3)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__0 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__0/I0) is not included in the LUT equation: 'O6=(A6*A3)+(A6*(~A3)*A5)+((~A6)*A2*A5)+((~A6)*(~A2)*A3)+((~A6)*(~A2)*(~A3)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A4)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__1 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__1/I0) is not included in the LUT equation: 'O6=(A4*A1*A6*A5)+(A4*A1*A6*(~A5)*A3)+(A4*A1*(~A6)*A3)+(A4*(~A1)*A5)+(A4*(~A1)*(~A5)*A3)+((~A4)*A5)+((~A4)*(~A5)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__0 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__0/I0) is not included in the LUT equation: 'O6=(A5*A4)+(A5*(~A4)*A6)+((~A5)*A2*A6)+((~A5)*(~A2)*A4)+((~A5)*(~A2)*(~A4)*A6)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__2 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__2/I0) is not included in the LUT equation: 'O6=(A6*A4)+(A6*(~A4)*A2)+((~A6)*A5*A2)+((~A6)*(~A5)*A4)+((~A6)*(~A5)*(~A4)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I0) is not included in the LUT equation: 'O6=(A1*A6)+((~A1)*A4)+((~A1)*(~A4)*A6)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I0) is not included in the LUT equation: 'O6=(A4*A6)+((~A4)*A2)+((~A4)*(~A2)*A6)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A3)+((~A3)*(~A6)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A2)+((~A2)*(~A6)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A6' of cell design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A2)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A6' of cell design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__2 (pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1__2/I0) is not included in the LUT equation: 'O6=(A5*A4)+(A5*(~A4)*A2)+((~A5)*A1*A2)+((~A5)*(~A1)*A4)+((~A5)*(~A1)*(~A4)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/ENARDEN (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ENB_I) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/ENBWREN (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/ENA_I_0) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[0] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[1] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[2] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[3] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[4] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[5] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[6] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[7] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/ENARDEN (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_ENARDEN_cooolgate_en_sig_38) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/ENBWREN (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/ENA_I_0) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[0] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[1] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[2] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[3] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[4] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[5] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[6] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/WEBWE[7] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ENBWREN (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ENA_I) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[0] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[1] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[2] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[3] (net: design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ENBWREN (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ENA_I) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[0] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[1] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[2] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/WEBWE[3] (net: design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram_2[0]) which is driven by a register (design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_i_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC RTSTAT-10] No routable loads: 232 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/camera_in/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/camera_in/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/hdmi_out/axi_interconnect_0/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/audio/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i... and (the first 15 of 145 listed).
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+0 Infos, 73 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:57 ; elapsed = 00:00:39 . Memory (MB): peak = 2672.617 ; gain = 731.391

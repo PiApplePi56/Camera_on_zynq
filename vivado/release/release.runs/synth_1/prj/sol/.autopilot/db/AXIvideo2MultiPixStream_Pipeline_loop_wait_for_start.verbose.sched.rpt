@@ -1,0 +1,142 @@
+
+
+================================================================
+== Vitis HLS Report for 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start'
+================================================================
+* Date:           Mon Jan  6 16:42:31 2025
+
+* Version:        2023.1 (Build 3854077 on May  4 2023)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.56 ns|  2.596 ns|     1.77 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        2|        2|  13.124 ns|  13.124 ns|    2|    2|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-----------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                       |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |       Loop Name       |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-----------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- loop_wait_for_start  |        0|        0|         1|          1|          1|     0|       yes|
+        +-----------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.59>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%axi_last = alloca i32 1"   --->   Operation 4 'alloca' 'axi_last' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln0 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i32 %s_axis_video_V_data_V, i4 %s_axis_video_V_keep_V, i4 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, void @empty_14"   --->   Operation 5 'specaxissidechannel' 'specaxissidechannel_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_axis_video_V_data_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i4 %s_axis_video_V_keep_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i4 %s_axis_video_V_strb_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_user_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_last_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_id_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_dest_V, void @empty_10, i32 0, i32 0, void @empty_11, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 12 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (1.29ns)   --->   "%store_ln0 = store i30 0, i30 %axi_data_out"   --->   Operation 13 'store' 'store_ln0' <Predicate = true> <Delay = 1.29>
+ST_1 : Operation 14 [1/1] (1.29ns)   --->   "%br_ln0 = br void %while.cond"   --->   Operation 14 'br' 'br_ln0' <Predicate = true> <Delay = 1.29>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%sof = phi i1 %axi_user, void %while.body, i1 0, void %newFuncRoot"   --->   Operation 15 'phi' 'sof' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%br_ln136 = br i1 %sof, void %while.body, void %loop_height.exitStub" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:136]   --->   Operation 16 'br' 'br_ln136' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%specpipeline_ln137 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:137]   --->   Operation 17 'specpipeline' 'specpipeline_ln137' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%speclooptripcount_ln138 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 0, i64 0" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:138]   --->   Operation 18 'speclooptripcount' 'speclooptripcount_ln138' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specloopname_ln136 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:136]   --->   Operation 19 'specloopname' 'specloopname_ln136' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%empty = read i44 @_ssdm_op_Read.axis.volatile.i32P0A.i4P0A.i4P0A.i1P0A.i1P0A.i1P0A.i1P0A, i32 %s_axis_video_V_data_V, i4 %s_axis_video_V_keep_V, i4 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139]   --->   Operation 20 'read' 'empty' <Predicate = (!sof)> <Delay = 0.00> <CoreInst = "axis">   --->   Core 115 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%p_cast11 = extractvalue i44 %empty" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139]   --->   Operation 21 'extractvalue' 'p_cast11' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%axi_user = extractvalue i44 %empty" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139]   --->   Operation 22 'extractvalue' 'axi_user' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%axi_last_6 = extractvalue i44 %empty" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139]   --->   Operation 23 'extractvalue' 'axi_last_6' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%axi_data = trunc i32 %p_cast11" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139]   --->   Operation 24 'trunc' 'axi_data' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (1.29ns)   --->   "%store_ln136 = store i30 %axi_data, i30 %axi_data_out" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:136]   --->   Operation 25 'store' 'store_ln136' <Predicate = (!sof)> <Delay = 1.29>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%store_ln136 = store i1 %axi_last_6, i1 %axi_last" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:136]   --->   Operation 26 'store' 'store_ln136' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%br_ln136 = br void %while.cond" [C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:136]   --->   Operation 27 'br' 'br_ln136' <Predicate = (!sof)> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%axi_last_load = load i1 %axi_last"   --->   Operation 28 'load' 'axi_last_load' <Predicate = (sof)> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_auto.i1P0A, i1 %axi_last_out, i1 %axi_last_load"   --->   Operation 29 'write' 'write_ln0' <Predicate = (sof)> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 30 'ret' 'ret_ln0' <Predicate = (sof)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 6.562ns, clock uncertainty: 1.772ns.
+
+ <State 1>: 2.596ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('axi.user') with incoming values : ('axi.user', C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139) [22]  (1.298 ns)
+	'phi' operation ('axi.user') with incoming values : ('axi.user', C:/Users/Pie/Documents/Xilinx/CAM_20_V/CAM_20_V/release/release.runs/synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:139) [22]  (0.000 ns)
+	blocking operation 1.298 ns on control path)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,68 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "1 2 3",
+    "file": "v_gamma_lut.cpp",
+    "fileloc": 44,
+    "instructions": 58,
+    "loads": {
+      "T": 4
+    },
+    "name": "v_gamma_lut",
+    "total_instructions": 565
+  },
+  "1": {
+    "basicblocks": 28,
+    "calls": "4 4",
+    "file": "v_gamma_lut.cpp",
+    "fileloc": 114,
+    "instructions": 262,
+    "loads": {
+      "L": 26
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 264
+  },
+  "2": {
+    "basicblocks": 25,
+    "calls": "",
+    "file": "v_gamma_lut.cpp",
+    "fileloc": 247,
+    "instructions": 135,
+    "loads": {
+      "L": 16
+    },
+    "name": "Gamma",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 135
+  },
+  "3": {
+    "basicblocks": 20,
+    "calls": "",
+    "file": "v_gamma_lut.cpp",
+    "fileloc": 191,
+    "instructions": 108,
+    "loads": {
+      "L": 5
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "L": 10
+    },
+    "total_instructions": 108
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 248,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  }
+}

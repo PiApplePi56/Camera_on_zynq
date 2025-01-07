@@ -1,0 +1,3 @@
+[submodule "linuxkernel"]
+	path = linuxkernel
+	url = git@github.com:PiApplePi56/linux-xlnx.git

@@ -11,6 +11,8 @@
 .runs/
 .hw/
 .sdk/
+*.runs/
+.Xil/
 
 # Linux Kernel build files
 *.o

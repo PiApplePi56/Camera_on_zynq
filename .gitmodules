@@ -1,3 +1,0 @@
-[submodule "linuxkernel"]
-	path = linuxkernel
-	url = git@github.com:Xilinx/linux-xlnx.git
